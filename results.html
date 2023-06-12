@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="js/functions.js"></script>
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+              NAVBAR
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <nav class="navbar navbar-expand-lg bg-white py-3 px-5">
+      <div class="container-fluid navbar-logo">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="assets/img/brand_extra_large.png"
+            alt="logo"
+            height="30"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end navbar-items"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="theCompany.html" href="#"
+                >A Companhia</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="governance.html">Governança</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="investors.html">Informações aos Investidores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="finances.html">Informações Financeiras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="riServices.html">Serviços RI</a>
+            </li>
+           </div>
+
+            <div class="collapse navbar-collapse nav-item-area">
+              <button class="btn btn-outline-success" type="button">
+                <li class="nav-item nav-link">
+                  <i class="bi bi-search text-primary-lighter"></i>
+                </li>
+              </button>
+              <a class="text-secondary px-2 ">|</a>
+              <li class="nav-item nav-link">
+                <a class="nav-link px-2" href="#"> <i class="bi bi-lock text-grey-500"></i> Área restrita</a>
+              </li>
+            </div>
+           
+            <div class="collapse navbar-collapse navbar-stories">
+              <button class="btn-rounded" type="button">
+              <li class="nav-item nav-link  px-2">
+              stories <a class="fw-bold text-black text-decoration-none" >RI</a> <span><i class="bi bi-newspaper"></i></span></li>
+              </button>
+            </div>
+          
+          </ul>
+      </div>
+    </nav>
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+              BANNER
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div class="intern-banner">
+      <div class="container">
+      </div>
+    </div>
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+              TITLE
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div>
+      <div class="container">
+        <div class="row">
+            <h2 class="text-primary">Central de Resultados</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+              TABLE
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <!-- SELECT -->
+
+    <div class="select-row">
+      <p>Filtrar por: </p>
+      <select class="form-select" aria-label="Default select example">
+        <option selected>2021</option>
+        <option value="1">2020</option>
+        <option value="2">2022</option>
+        <option value="3">2023</option>
+      </select> 
+    </div>
+    
+    <!-- TABLE -->
+    <div class="container results-table">
+      <table class="table">
+        <thead>
+          <tr class="table-primary">
+            <th scope="col">2021</th>
+            <th scope="col">1T</th>
+            <th scope="col">2T</th>
+            <th scope="col">3T</th>
+            <th scope="col">4T</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">ITR</th>
+            <td>
+              <img onclick="infoClick(this)" src="assets/img/resultIcons/info.png">
+            </td>
+            <td>
+              <img onclick="infoClick(this)" src="assets/img/resultIcons/info.png">
+            </td>
+            <td>
+              <img onclick="infoClick(this)" src="assets/img/resultIcons/info.png">
+            </td>
+            <td>
+              <img onclick="infoClick(this)" src="assets/img/resultIcons/info.png">
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Apresentação de Resultados</th>
+            <td>
+              <img onclick="presentationClick(this)" src="assets/img/resultIcons/presentation.png">
+            </td>
+            <td>
+              <img onclick="presentationClick(this)" src="assets/img/resultIcons/presentation.png">
+            </td>
+            <td>
+              <img onclick="presentationClick(this)" src="assets/img/resultIcons/presentation.png">
+            </td>
+            <td>
+              <img onclick="presentationClick(this)" src="assets/img/resultIcons/presentation.png">
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Release de Resultados</th>
+            <td>
+              <img onclick="resultsClick(this)" src="assets/img/resultIcons/word.png">
+            </td>
+            <td>
+              <img onclick="resultsClick(this)" src="assets/img/resultIcons/word.png">
+            </td>
+            <td>
+              <img onclick="resultsClick(this)" src="assets/img/resultIcons/word.png">
+            </td>
+            <td>
+              <img onclick="resultsClick(this)" src="assets/img/resultIcons/word.png">
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Planilha de Apoio</th>
+            <td>
+              <img onclick="tableClick(this)" src="assets/img/resultIcons/table.png">
+            </td>
+            <td>
+              <img onclick="tableClick(this)" src="assets/img/resultIcons/table.png">
+            </td>
+            <td>
+              <img onclick="tableClick(this)" src="assets/img/resultIcons/table.png">
+            </td>
+            <td>
+              <img onclick="tableClick(this)" src="assets/img/resultIcons/table.png">
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">Call de Resultados</th>
+            <td>
+              <img onclick="callClick(this)" src="assets/img/resultIcons/call.png">
+            </td>
+            <td>
+              <img onclick="callClick(this)" src="assets/img/resultIcons/call.png">
+            </td>
+            <td>
+              <img onclick="callClick(this)" src="assets/img/resultIcons/call.png">
+            </td>
+            <td>
+              <img onclick="callClick(this)" src="assets/img/resultIcons/call.png">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- RESULTS LAST CALL -->
+    <div class="container results-last-call">
+      <a href="#">Clique aqui</a><p>para ouvir o ultimo Call de Resultados</p>
+    </div>
+
+    <!-- SHARE -->
+    <div class="container">
+      <hr></hr>
+    </div>
+    <div class="container share">
+      <p>Compartilhe:</p>
+      <div class="px-2">
+        <img src="assets/img/downloadIcons/compartilhar.png">
+        <img src="assets/img/downloadIcons/imprimir.png">
+        <img src="assets/img/downloadIcons/pdf.png">
+      </div>
+    
+    </div>
+
+     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+              FOOTER
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div id="footer" class="footer">
+      <div class="footer-row pt-5">
+        <img
+          src="assets/img/footer/white.png"
+          alt="logo"
+          height="30"
+          class="d-inline-block align-text-top">
+        <ul class="navbar-nav footer-menu">
+          <li class="nav-item">
+            <a class="nav-link active px-2" href="theCompany.html"
+              >A Companhia</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2" href="governance.html">Governança</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2" href="investors.html">Informações aos Investidores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2" href="finances.html">Informações Financeiras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-2" href="riServices.html">Serviços RI</a>
+          </li>
+        </ul>
+        <div>
+          <button class="icon-btn"><i class="bi bi-instagram"></i></button>
+          <button class="icon-btn"><i class="bi bi-facebook"></i></button>
+          <button class="icon-btn"><i class="bi bi-twitter"></i></button>
+        </div>
+      </div>
+      <hr class="footer-line">
+      <div class="footer-row pt-2 pb-2">
+          <p class="text-secondary">Empresa © Todos os direitos reservados 2023</p>
+          <p class="text-secondary">Viverra faucibus amet sollicitudin | Viverra faucibus amet sollicitudin</p>
+          <img src="assets/img/footer/selo-prisma.png" alt="logo" height="30" class="d-inline-block align-text-top"/>
+      </div>
+    </div>
+  </body>
+</html>

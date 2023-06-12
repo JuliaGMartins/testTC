@@ -1,0 +1,25 @@
+{
+  "name": "test-tc",
+  "version": "1.0.0",
+  "description": "HTML/CSS Test",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "sass"
+  ],
+  "author": "Julia Martins",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0",
+    "bootstrap-icons": "^1.10.5",
+    "postcss-cli": "^10.1.0"
+  }
+}

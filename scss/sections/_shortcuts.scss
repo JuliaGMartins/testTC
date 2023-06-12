@@ -1,0 +1,33 @@
+@use "../custom" as *;
+
+.shortcut {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+  background-color: $primary;
+}
+
+.shortcut-icon {
+  color: $white;
+  width: 72px;
+}
+
+.shortcut-text {
+  color: $white;
+  font-family: Helvetica;
+  font-size: 1.125em;
+}
+
+.shortcut-item-container {
+  background-color: white;
+  display: flex;
+  width: 153px;
+  height: 128px;
+  margin: 0px 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

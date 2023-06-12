@@ -1,0 +1,58 @@
+// Theme colors
+$primary: #ed7d31;
+$primary-light: #e5a173;
+$primary-lighter: #ffc299;
+$primary-dark: #cc7337;
+$primary-darker: #b26530;
+$primary-darkest: #a65823;
+
+$secondary: #cccccc;
+$secondary-light: #d1d1d1;
+$secondary-lighter: #d9d9d9;
+$secondary-dark: #bfbfbf;
+$secondary-darker: #b3b3b3;
+$secondary-darkest: #a6a6a6;
+
+$grey: #a6a6a6;
+$grey-dark: #343a40;
+$grey-100: #eeeeee;
+$grey-200: #dddddd;
+$grey-300: #bbbbbb;
+$grey-400: #999999;
+$grey-500: #666666;
+$grey-600: #444444;
+$grey-700: #333333;
+$grey-800: #222222;
+$grey-900: #111111;
+
+$nav-link: (
+  "color": $grey,
+);
+
+$theme-colors: (
+  "primary": $primary,
+  "primary-light": $primary-light,
+  "primary-lighter": $primary-lighter,
+  "primary-dark": $primary-dark,
+  "primary-darker": $primary-darker,
+  "primary-darkest": $primary-darkest,
+  "secondary": $secondary,
+  "secondary-light": $secondary-light,
+  "secondary-lighter": $secondary-lighter,
+  "secondary-dark": $secondary-dark,
+  "secondary-darker": $secondary-darker,
+  "secondary-darkest": $secondary-darkest,
+  "grey": $grey,
+  "grey-dark": $grey-dark,
+  "grey-100": $grey-100,
+  "grey-200": $grey-200,
+  "grey-300": $grey-300,
+  "grey-400": $grey-400,
+  "grey-500": $grey-500,
+  "grey-600": $grey-600,
+  "grey-700": $grey-700,
+  "grey-800": $grey-800,
+  "grey-900": $grey-900,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,0 +1,30 @@
+@use "../custom" as *;
+
+.btn-rounded {
+  position: relative;
+  border-radius: 50px;
+  border-color: $primary;
+  background-color: transparent;
+  border-style: solid;
+  padding-right: 1.5rem;
+
+  span {
+    position: absolute;
+    background-color: $primary;
+    width: 1.5rem;
+    height: 1.5rem;
+    right: 5px;
+    transform: transalateY(-50%);
+    border-radius: 50%;
+  }
+
+  i {
+    color: $white;
+  }
+}
+
+.icon-btn {
+  background-color: transparent;
+  border: none;
+  color: $white;
+}

@@ -1,0 +1,22 @@
+@use "../custom" as *;
+
+.footer {
+  background-color: $grey-900;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.footer-line {
+  padding: 0 50px;
+}

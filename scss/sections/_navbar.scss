@@ -1,0 +1,29 @@
+@use "../custom" as *;
+
+.nav-item-area {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-logo {
+  flex: 1;
+}
+
+.navbar-items {
+  flex: 3;
+  flex-direction: row;
+  width: max-content;
+  margin: 100;
+  justify-content: space-evenly;
+}
+
+.navbar-stories {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  width: fit-content;
+}
